@@ -1,12 +1,12 @@
 #include <Windows.h>
-#include "VRMeme.h"
+#include "BlockadeHax.h"
 
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved)
 {
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
-		VRMeme::Inject();
+		BlockadeHax::Inject();
     case DLL_THREAD_ATTACH:
     case DLL_THREAD_DETACH:
     case DLL_PROCESS_DETACH:

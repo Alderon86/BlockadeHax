@@ -22,8 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{8B210478-FF9C-46F9-BDF2-9EF8CFAEAED2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>VRMeme</RootNamespace>
+    <RootNamespace>BlockadeHax</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>BlockadeHax</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -160,11 +161,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Console.h" />
-    <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerManager.h" />
     <ClInclude Include="Runtime.h" />
     <ClInclude Include="Types.h" />
-    <ClInclude Include="VRMeme.h" />
+    <ClInclude Include="BlockadeHax.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

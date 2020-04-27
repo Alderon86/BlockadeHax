@@ -2,11 +2,10 @@
 #include "Console.h"
 #include "Runtime.h"
 
-struct VRMeme {
+struct BlockadeHax {
 	static void Inject()
 	{
-		Console::ShowConsole("VRMeme");
-
+		Console::ShowConsole("Blockade3D Hax");
 
 		std::cin.get();
 	}

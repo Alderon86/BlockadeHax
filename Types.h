@@ -370,17 +370,17 @@ struct Il2CppString
 	uint16_t chars[0];
 };
 
+
+struct Il2CppArrayBounds
+{
+	int32_t length;
+	int32_t lower_bound;
+};
+
 struct Il2CppArray
 {
 	Il2CppObject obj;
 	Il2CppArrayBounds* bounds;
 	int32_t max_length;
 	double vector[0];
-};
-
-
-struct Il2CppArrayBounds
-{
-	int32_t length;
-	int32_t lower_bound;
 };
