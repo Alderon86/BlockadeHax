@@ -1,5 +1,5 @@
 # VRMeme
-A proof of concept il2cpp cheat for VRChat that I scrapped which shows you how to cheat on an il2cpp unity game. <br />
+A proof of concept il2cpp mod for VRChat that I scrapped which shows you how to modify an il2cpp unity game. <br />
 
 Example of invoking an il2cpp method: 
 ```cpp
