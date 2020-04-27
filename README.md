@@ -20,4 +20,4 @@ auto assembly = Runtime::il2cpp_assembly_get_image("UnityEngine.CoreModule");
 		auto Method = Runtime::il2cpp_class_get_method_from_name(Class, "Log", 0);
 
 		Runtime::il2cpp_runtime_invoke(Method, NULL, new void* [1] { Runtime::il2cpp_string_new("testing") });
-    ```
+```
