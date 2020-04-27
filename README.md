@@ -1,4 +1,4 @@
-# VRMeme
+# BlockadeHax
 A proof of concept il2cpp mod for VRChat that I scrapped which shows you how to modify an il2cpp unity game. <br />
 
 Example of invoking an il2cpp method: 
