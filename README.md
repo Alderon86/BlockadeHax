@@ -9,4 +9,5 @@ auto Class = Runtime::il2cpp_class_from_name(Assembly, "namespace", "className")
 
 auto Method = Runtime::il2cpp_class_get_method_from_name(Class, "methodName", 0); //Pass in the target method's name, so if I wanted to attack a method called KillCurrentPlayer(), I'd pass in the name KillCurrentPlayer by itself.
 
-auto Result = Runtime::il2cpp_runtime_invoke(Method, NULL, NULL); //Execute the method and get the result as an Il2CppObject which you can do whatever you want with.```
+auto Result = Runtime::il2cpp_runtime_invoke(Method, NULL, NULL); //Execute the method and get the result as an Il2CppObject which you can do whatever you want with.
+```
