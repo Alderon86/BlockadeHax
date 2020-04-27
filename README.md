@@ -11,3 +11,13 @@ auto Method = Runtime::il2cpp_class_get_method_from_name(Class, "methodName", 0)
 
 auto Result = Runtime::il2cpp_runtime_invoke(Method, NULL, NULL); //Execute the method and get the result as an Il2CppObject which you can do whatever you want with.
 ```
+
+```cpp
+auto assembly = Runtime::il2cpp_assembly_get_image("UnityEngine.CoreModule");
+
+		auto Class = Runtime::il2cpp_class_from_name(assembly, "UnityEngine", "Debug");
+
+		auto Method = Runtime::il2cpp_class_get_method_from_name(Class, "Log", 0);
+
+		Runtime::il2cpp_runtime_invoke(Method, NULL, new void* [1] { Runtime::il2cpp_string_new("testing") });
+    ```
